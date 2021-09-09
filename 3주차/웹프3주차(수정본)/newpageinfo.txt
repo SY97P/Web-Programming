@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p>현재 웹 페이지 안에 새로운 페이지가 표시됩니다.</p>
+</body>
+</html>

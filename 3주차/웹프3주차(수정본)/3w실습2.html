@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p>제 n차 국민통계</p>
+	<div style="border:3px solid black">
+	<form action="input.jsp" method="post">
+	이름 : <input type="text" name="name"/><br />
+	성별 :
+	<input type="radio" name="gender" value="male">남성
+	<input type="radio" name="gender" value="female">여성<br />
+	연령 :
+	<input type="radio" name="age" value="10ages">10대
+ 	<input type="radio" name="age" value="20ages">20대
+	<input type="radio" name="age" value="30ages">30대
+	<input type="radio" name="age" value="40ages">40대
+	<input type="radio" name="age" value="50ages">50대
+	<input type="radio" name="age" value="60ages">60대<br />
+	지역 :
+	<input type="checkbox" value="강원">강원
+	<input type="checkbox" value="서울">서울
+	<input type="checkbox" value="경기">경기
+	<input type="checkbox" value="전라">전라
+	<input type="checkbox" value="경상">경상	
+	<input type="checkbox" value="제주">제주
+	<input type="button" value="제출" onclick="alert('참여해주셔서 감사합니다.')">
+	<input type="reset" value="처음부터">
+	</form>
+	</div>
+</body>
+</html>

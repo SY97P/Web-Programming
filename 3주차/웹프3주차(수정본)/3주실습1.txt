@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<div style="border:3px solid red;">
+		<h2>div</h2>
+		<p>
+			<div> 태그는 페이지를 논리적인 섹션으로 분할하는 태그랍니다. <, >의 표시는 지난주에 배웠습니다<br>만...
+		</p>
+	</div>
+	<p>새로운 예제</p>
+	<div style="border:3px solid red;">
+		<h2>iframe</h2>
+		<p>
+			<iframe>태그는 웹 페이지 내부에 다른 페이지를 표시하는 태그입니다.<br>
+			아래 보이는 "Click"을 클릭하면 어떻게 될까요?<br>
+			이 페이지를 완성하려면 교재 74페이지의 예제와 75페이지의 예제를 응용해야 합니다.<br>
+	`	</p>
+	<iframe src="" name="iframe1" width="80" height="40"></iframe>
+	<p><a href="newpageinfo.html" target="iframe1">Click</a></p>
+</body>
+</html>
