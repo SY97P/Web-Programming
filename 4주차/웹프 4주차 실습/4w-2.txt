@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="for4-2.css">
+</head>
+<body>
+	<div style="border: 3px solid green; background-color:silver">
+		<p>Hackers masquerading as officials from Bangladesh's central
+		bank asked the New York branch of the Federal Reserve to transfer
+		nearly $1 billion to private bank accounts in Sri Lanka and the 
+		Philippines. By the time authorities cottoned on, $101m had
+		been nicked. On March 15th Atiur Rahman, the governor of Bangladesh's
+		central bank, took the blame and resigned.</p>
+	</div>
+	<p>That has not stopped the finger-pointing. In the manner of a bank
+	customer complaning about fraudulent credit-card charges, <strong>bangladeshi</strong>
+	authorities say the Fed, which was acting as the central bank's bank,
+	should not have paid out anything at all. The <strong>fed</strong> says the instructions
+	it received were legitimate. The <strong>philippine</strong> authorities cannot say
+	what happened to the $81m sent to their country. <i>Much of the money
+	disappeared int it's opaque casinos</i> which they say are not covered 
+	by anti money-laundering rules (a worry in itself). The CCTV system 
+	at a bank branch where some of the money was withdrawn was not working.
+	</p>
+</body>
+</html>

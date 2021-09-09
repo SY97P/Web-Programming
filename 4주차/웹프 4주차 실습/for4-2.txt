@@ -1,0 +1,2 @@
+strong { text-transform : uppercase; }
+i { text-shadow : 3px 3px 3px #FF0000; }

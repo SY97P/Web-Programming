@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="for4-3.css">
+</head>
+<body>
+	<p>Original font size is "<b>small</b>"</p>
+	
+	<h1>IT COULD be a rare piece of good news in the battle against global warming.</h1>
+
+	<p id="target1">The International Energy Agency (IEA), The World's Most Prominent Energy Forecaster,
+	Said On march 16th That Carbon-Dioxide Emissions from burnign fossil fuels hace remained
+	flat for two years in a row.</p>
+
+	<p id="target2">Emissions from the world's two biggest polluters, <b>America</b> and <b>China</b>
+	, have been falling, The world has not seen such a lull since the early 1980s. The
+	IEA's provisional findings will fan a debate about whether global emissions have
+	peaked. China, after all, is trying to rebalance its economy away from heavily
+	polluting industries towards services.</p>
+
+	<table border="1">
+		<tr>
+			<th colspan="3" style="background-color:aqua;">Test table</td>
+		</tr>
+		<tr>
+			<td style="background-color:lime;">Banana</td>
+			<td style="background-color:purple;">Apple</td>
+			<td style="background-color:green;">Berry</td>
+		</tr>
+		<tr>
+			<td style="background-color:olive;">UCLA</td>
+			<td style="background-color:yellow;">UCSD</td>
+			<td style="background-color:silver;">UCSF</td>
+		</tr>
+	</table>
+</body>
+</html>
