@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div {		
+			text-align : center; 		
+			color : red;
+			background-color : yellow;
+		}
+		p	{	color : black;	}
+			
+	</style>
+	<script>
+		function changeColor() {
+			var textcolor = prompt("글자 색을 입력하세요","black");
+			var e = document.getElementById("text");
+			e.style.color = textcolor;
+			var backcolor = prompt("배경 색을 입력하세요","yellow");
+			var f = document.getElementById("background");
+			f.style.background = backcolor;
+		}
+	</script>
+</head>
+<body>
+	<div id="background">
+		<h1 id="text">글자 색을 원하는 대로 바꾸어 봅시다.<br /><br /></h1>
+		<p>색 샘플 : red, blue, #F3F1E9, #ffffff<br /></p>
+		<input type="button" value="클릭하세요" onclick="changeColor();">
+	</div>
+	
+</body>
+</html>

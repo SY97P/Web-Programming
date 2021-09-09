@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<div>
+	<p>과일리스트</p>
+	<ul>
+		<li>Apple</li>
+		<li>Banana</li>
+		<li>Orange</li>
+	</ul>
+</div>
+	<script>
+		var myDiv = document.getElementsByTagName('div')[0];
+		var myP = myDiv.childNodes[1].firstChild;
+		
+		var myUl = myDiv.childNodes[3];
+		var myApple = myUl.childNodes[1].firstChild;
+		
+		var myB = myUl.childNodes[3].firstChild;
+		
+		var myO = myUl.childNodes[5].firstChild;
+		
+		document.write(myP.data+"<br>");
+		document.write(myApple.data+"<br>");
+		document.write(myB.data+"<br>");
+		document.write(myO.data+"<br>");
+	</script>
+</body>
+</html>
