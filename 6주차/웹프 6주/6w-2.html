@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style> 
+		div {
+			width:50px;	
+			height:50px;
+			background:red;
+			position:relative;
+			animation : 5s myanim;
+			animation-iteration-count : 10;
+		}
+		@keyframes myanim
+		{
+			0%  {
+				left:0px; top:0px;
+			}
+			20% {	
+				transform : skew(20deg, 10deg);
+				background-color:blue;
+				left:100px; top:200px;
+			}
+			40% {
+				transform : skew(0deg, 0deg);
+				background-color:purple;
+				left:200px; top:0px;
+			}
+			60% {
+				transform : scale(1.5, 1.5);
+				background-color:yellow;
+				left:300px; top:200px;
+			}
+			80% {
+				transform : scale(1, 1);
+				background-color:orange;
+				left:400px; top:0px;	
+			}
+			100% {
+				transform :perspective(250px) rotateY(70deg) rotateX(0deg);
+				background-color:black;
+				left:500px; top:200px;
+			}
+		}
+ 	</style>
+</head>
+<body>
+ 	<div></div>
+</body>
+</html>

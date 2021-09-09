@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body	{	border:1px solid red;
+				margin : 5px;
+		}
+		header	{	text-align : center;
+				font-size : 1.5em;
+		}
+		section	{	margin : 5px; float:right;
+		}
+		article	{	text-align : center;
+				border: 1px solid green;
+		}
+		#first	{	float: left;
+		}
+		#second	{	float:right;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<p>헤더위치<br />수직정렬은 무시!</p>
+	</header>
+	<aside>
+		<p>ASIDE입니다.</p>
+	</aside>
+	<section>
+		<article class="first">
+			<p>첫번째 아티클입니다.</p>
+		</article>
+		<article class="second">
+			<p>두번째 아티클입니다.</p>
+		</article>
+	</section>
+</body>
+</html>
