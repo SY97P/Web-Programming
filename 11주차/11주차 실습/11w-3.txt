@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function putBlack() {
+			var canvas = document.getElementById("myCanvas");
+			var context = canvas.getContext("2d");
+
+			var x = document.getElementById("bx").value;
+			var y = document.getElementById("by").value;
+
+			context.beginPath();
+
+			for(var i=0; i<=420; i+=20) {
+				context.moveTo(i, 0);
+				context.lineTo(i, 420);
+			}
+			for(var i=0; i<=420; i+=20) {
+				context.moveTo(0, i);
+				context.lineTo(420, i);
+			}
+			context.closePath();
+
+			context.moveTo(x*20, y*20);
+			context.arc(x*20, y*20, 8, 0, 2.0*Math.PI, false);
+			context.fillStyle = "black";
+			context.fill();
+			context.stroke();
+		}
+		
+		function putWhite(x, y) {
+			var canvas = document.getElementById("myCanvas");
+			var context = canvas.getContext("2d");
+
+			var x = document.getElementById("wx").value;
+			var y = document.getElementById("wy").value;
+
+			context.beginPath();
+
+			for(var i=0; i<=420; i+=20) {
+				context.moveTo(i, 0);
+				context.lineTo(i, 420);
+			}
+			for(var i=0; i<=420; i+=20) {
+				context.moveTo(0, i);
+				context.lineTo(420, i);
+			}
+			context.closePath();
+
+			context.moveTo(x*20, y*20);
+			context.arc(x*20, y*20, 8, 0, 2.0*Math.PI, false);
+			context.fillStyle="white";
+			context.fill();
+			context.stroke();
+		}
+	</script>
+</head>
+<body>
+	<canvas id="myCanvas" width="420" height="420"></canvas>
+	<div id="control">
+		검은 돌 x좌표
+		<input id="bx"/>
+		y좌표
+		<input id="by"/>
+		<button onclick="putBlack()">검은돌 플레이</button><br/>
+		흰돌 x좌표
+		<input id="wx"/>
+		y좌표
+		<input id="wy"/>
+		<button onclick="putWhite()">흰돌 플레이</button>
+	</div>
+</body>
+</html>

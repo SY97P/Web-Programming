@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function putBlack(x, y) {
+			var canvas = document.getElementById("myCanvas");
+			var context = canvas.getContext("2d");
+
+			context.beginPath();
+
+			for(var i=0; i<=420; i+=20) {
+				context.moveTo(i, 0);
+				context.lineTo(i, 420);
+			}
+			for(var i=0; i<=420; i+=20) {
+				context.moveTo(0, i);
+				context.lineTo(420, i);
+			}
+			context.closePath();
+
+			context.moveTo(x, y);
+			context.arc(x, y, 8, 0, 2.0*Math.PI, false);
+			context.fillStyle = "black";
+			context.fill();
+			context.stroke();
+		}
+		
+		function putWhite(x, y) {
+			var canvas = document.getElementById("myCanvas");
+			var context = canvas.getContext("2d");
+
+			context.beginPath();
+
+			for(var i=0; i<=420; i+=20) {
+				context.moveTo(i, 0);
+				context.lineTo(i, 420);
+			}
+			for(var i=0; i<=420; i+=20) {
+				context.moveTo(0, i);
+				context.lineTo(420, i);
+			}
+			context.closePath();
+
+			context.moveTo(x, y);
+			context.arc(x, y, 8, 0, 2.0*Math.PI, false);
+			context.fillStyle="white";
+			context.fill();
+			context.stroke();
+		}
+	</script>
+</head>
+<body>
+	<canvas id="myCanvas" width="420" height="420"></canvas>
+	<script>
+		putBlack(60, 80);
+		putWhite(80, 80);
+		putWhite(100, 80);
+		putBlack(80, 100);
+		putBlack(100, 120);
+		putWhite(120, 140);
+	</script>
+</body>
+</html>
