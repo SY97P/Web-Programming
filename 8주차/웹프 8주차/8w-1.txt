@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function getN() {
+			var count=0;
+			var s = document.getNumber.banner.value;
+			var array = s.split(" ");
+			var x;
+			var key=0;
+			for(var i=0; i<array.length; i++) {
+				x = array[i];
+				var j=0;
+				while(j<=x.length) {
+					if((x[j]>="0")&&(x[j]<="9")) {
+						key++;	
+					}
+					j++;
+					if(key==x.length) {
+						count++;
+						document.writeln(count+"번 째 숫자 "+x+"<br>");
+						key=0;
+					}
+				}
+			}
+		}
+	</script>		
+</head>
+<body>
+	<form name="getNumber">
+		<input type="text" name="banner"><br />
+		<input type="button" value="처리" onclick="getN();"><br /><br />
+	</form>
+</body>
+</html>
