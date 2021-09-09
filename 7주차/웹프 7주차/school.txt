@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*	{	color:#3f3f3f;	
+				font-family:Georgia, Sans-serif;
+		}
+	</style>
+</head>
+<body>
+	<h2><b>출신 학교</b></h2>
+	<p><i>초등학교 : 봉의초</i></p>
+	<p><i>중학교 : 대룡중</i></p>
+	<p><i>고등학교 : 춘천고</i></p>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		img {	position:relative; animation:2s myanim;
+			animation-iteration-count: 100;
+		}
+		@keyframes myanim
+		{
+			0%	{left:0px; top:0px;}
+			10%	{left:20px; top:20px; transform:rotate(30deg);}
+			20%	{left:40px; top:0px; transform:rotate(-30deg);}
+			30%	{left:60px; top:20px; transform:rotate(30deg);}
+			40%	{left:80px; top:0px; transform:rotate(-30deg);}
+			50%	{left:100px; top:20px; transform:rotate(30deg);}
+			60%	{left:120px; top:0px; transform:rotate(-30deg);}
+			70%	{left:140px; top:20px; transform:rotate(30deg);}
+			80%	{left:160px; top:0px; transform:rotate(-30deg);}
+			90%	{left:180px; top:20px; transform:rotate(30deg);}
+			100%	{left:200px; top:0px; transform:rotate(-30deg);}
+		}
+	</style>
+</head>
+<body>
+	//header에는 고래가 넘실거리면서 왼쪽부터 오른쪽으로 이동하도록 모션 조정
+	<header>
+		<img src="bigwhale.jpg" width="50" height="50"/>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="7w.html">Home</a></li>
+			<li><a href="7w.html">About Me</a></li>
+			<li><a href="7w.html">News</a></li>
+			<li><a href="7w.html">Credit</a></li>
+		</ul>
+	</nav>
+	<aside>
+		<h4>카테고리</h4>
+		<ul>
+			<li><a target="iframe1" href="school.html">출신 학교</a></li>
+			<li><a target="iframe1" href="family.html">가족 소개</a></li>
+			<li><a target="iframe1" href="self.html">본인 소개</a></li>
+			<li><a target="iframe1" href="hobby.html">취미 소개</a></li>
+			<li><a target="iframe1" href="favorite.html">관심분야 소개</a></li>
+		</ul>
+	</aside>
+	<section id="main">
+		<article id="article1">
+			<iframe name="iframe1" src="school.html" width="440" height="300" seamless></iframe>
+		</article>
+	</section>
+	<footer>Web Page Made by Park Se Young</footer>
+</body>
+</html>
