@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		a		{	background : yellow;	}
+		a:link 		{	color : black;	background-color: white;  }
+		a:visited	{	color : red;	background-color: yellow; }
+		a:hover		{	color : black;
+					background-color : green;
+					font-size : 2.0em;	}
+	</style>
+</head>
+<body>
+	<p><a href="http://www.google.co.kr" target="_blank">Google Site</a>
+	</p>
+</body>
+</html>

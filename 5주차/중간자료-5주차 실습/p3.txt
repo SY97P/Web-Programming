@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#sheltie{	background-image : url('sheltie.jpg');
+				background-repeat : repeat;
+		}
+		#pink 	{	background-image : url('pink.jpg');
+				background-repeat: no-repeat;
+				margin : auto;
+				padding-left : 20px;
+				padding-right: 20px;
+				padding-top : 10px;
+				padding-bottom:10px;
+		}
+		table	{	border-collapse : collapse;
+				border: 1px solid blue;
+		}
+		#sheltie{	background-image : url('sheltie.jpg');
+				background-repeat: repeat;
+		}
+		#pink	{	background-image : url('pink.jpg);
+				background-repeat: no-repeat;
+				margin :auto;
+		}
+	</style>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td>이름</td>
+			<td>이미지</td>
+		</tr>
+		<tr>
+			<td>셸티</td>
+			<td><div id="sheltie"></div></td>
+		</tr>
+		<tr>
+			<td>분홍돌고래</td>
+			<td><div id="pink"></div></td>
+		</tr>
+	</table>
+</body>
+</html>
